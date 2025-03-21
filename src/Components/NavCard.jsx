@@ -12,12 +12,12 @@ function NavCard({ title, link, img }) {
         <p className="mt-2 font-medium">{title}</p>
       </a>
     );
-  }
+}
 
-    NavCard.propTypes = {
-        title: PropTypes.string.isRequired,
-        link: PropTypes.string.isRequired,
-        img: PropTypes.string,
-    };
+NavCard.propTypes = {
+    title: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    img: PropTypes.string,
+};
   
 export default NavCard;
