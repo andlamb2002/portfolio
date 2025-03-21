@@ -1,4 +1,4 @@
-function Projects() {
+function Portfolio() {
 
     return (
         <div className="flex justify-center min-h-screen bg-gray-300">
@@ -14,4 +14,4 @@ function Projects() {
     )
 }
 
-export default Projects
+export default Portfolio
