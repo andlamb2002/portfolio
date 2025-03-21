@@ -1,17 +1,32 @@
+import ProjectCard from "../Components/ProjectCard";
+
 function Portfolio() {
 
+    const projects = [
+        {
+          title: "EG Trainer",
+          techStack: "React, Tailwind, LocalStorage",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          imgSrc: "/images/eg-trainer.png",
+        },
+        {
+          title: "Photo Share App",
+          techStack: "MERN, Material UI",
+          description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          imgSrc: "/images/photo-share.png",
+        },
+      ];
+
     return (
-        <div className="flex justify-center min-h-screen bg-gray-300">
-            <div className="text-center">
-                <h1 className="text-3xl font-bold mb-4">Projects</h1>
-                <p className="text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+        <section className="container mx-auto px-6 py-12 bg-gray-100">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">Portfolio</h2>
+            <div className="grid gap-6">
+                {projects.map((project, index) => (
+                    <ProjectCard key={index} {...project} />
+                ))}
             </div>
-        </div>
-    )
+        </section>
+    );
 }
 
 export default Portfolio
