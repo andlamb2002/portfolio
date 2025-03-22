@@ -11,7 +11,7 @@ import Footer from './Components/Footer'
 function App() {
     return (
         <BrowserRouter>
-            <div className="flex flex-col min-h-screen">
+            <div className="flex flex-col min-h-screen bg-primary">
                 <Header /> 
                 <main className="flex-grow">
                     <div className="w-3/5 mx-auto">
