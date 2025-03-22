@@ -1,25 +1,27 @@
+import headshot from "../assets/headshot.png";
+import { FaUserCircle, FaFolderOpen, FaEnvelope } from "react-icons/fa";
+
 export const homeIntro = {
-    name: "Andreas",
-    greeting: "Hi, I'm Andreas",
-    message: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
-    img: null, 
+    greeting: "Welcome to My Personal Website!",
+    intro: `I am a graduate student in Computer Science with a passion for software engineering and specializing in web application development. Through academic and personal projects, I have gained hands-on experience building scalable web applications and working in an Agile environment. My ultimate goal is to become a software engineer and contribute to innovative solutions as part of a collaborative team. Currently, I am seeking internship opportunities to gain experience in working on real-world projects. I have worked part-time as a Taekwondo instructor for over 6 years through which I have developed strong leadership and teamwork skills.`,
+    img: headshot, 
   };
 
 export const navLinks = [
     {
         title: "About",
         link: "/about",
-        img: null,
+        icon: FaUserCircle,
     },
     {
         title: "Portfolio",
         link: "/portfolio",
-        img: null,
+        icon: FaFolderOpen,
     },
     {
         title: "Contact",
         link: "/contact",
-        img: null,
+        icon: FaEnvelope,
     },
 ];
 

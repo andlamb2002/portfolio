@@ -4,29 +4,25 @@ import { homeIntro, navLinks } from "../data/data";
 function Home() {
     
     return (
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center py-8 gap-y-8">
 
-            <div className="flex flex-row items-center w-full p-6">
+            <div className="flex flex-row items-center w-full">
 
-                <div className="w-32 h-32 rounded-full bg-gray-300 flex items-center justify-center text-lg font-bold overflow-hidden">
-                {homeIntro.img ? (
-                    <img src={homeIntro.img} alt={homeIntro.name} className="w-full h-full object-cover" />
-                ) : (
-                    "IMG"
-                )}
+                <div className="w-48 h-48 flex-shrink-0 rounded-full flex items-center justify-center overflow-hidden">
+                    <img src={homeIntro.img} alt="Headshot" className="w-full h-full object-cover" />
                 </div>
 
-                <div className="mt-0 ml-6 text-left">
-                    <h1 className="text-3xl font-semibold">{homeIntro.greeting}</h1>
-                    <p className="mt-2">
-                        {homeIntro.message}
+                <div className="text-left ml-8">
+                    <h1 className="text-4xl font-bold">{homeIntro.greeting}</h1>
+                    <p className="text-lg mt-4">
+                        {homeIntro.intro}
                     </p>
                 </div>
             </div>
 
-            <div className="mt-8 flex flex-row gap-6 pb-6">
+            <div className="flex flex-row gap-x-8">
                 {navLinks.map((nav, index) => (
-                    <NavCard key={index} title={nav.title} link={nav.link} img={nav.img} />
+                    <NavCard key={index} title={nav.title} link={nav.link} icon={nav.icon} />
                 ))}
             </div>
         </div>

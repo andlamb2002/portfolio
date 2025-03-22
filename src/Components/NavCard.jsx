@@ -1,23 +1,23 @@
 import PropTypes from "prop-types";
 
-function NavCard({ title, link, img }) {
+function NavCard({ title, link, icon: Icon }) {
     return (
         <a
             href={link}
-            className="w-40 h-32 bg-gray-200 rounded-lg flex flex-col items-center justify-center text-gray-700"
+            className="w-40 h-40 bg-button rounded-lg flex flex-col items-center justify-center hover:bg-buttonHover"
         >
-        <div className="w-16 h-16 bg-gray-400 rounded-md flex items-center justify-center">
-            {img ? <img src={img} alt={title} className="w-full h-full rounded-md" /> : "IMG"}
-        </div>
-        <p className="mt-2 font-medium">{title}</p>
-      </a>
+            <div className="flex items-center justify-center text-8xl">
+                <Icon />
+            </div>
+            <p className="text-xl font-semibold mt-2">{title}</p>
+        </a>
     );
 }
 
 NavCard.propTypes = {
     title: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
-    img: PropTypes.string,
+    icon: PropTypes.elementType, 
 };
-  
+
 export default NavCard;
