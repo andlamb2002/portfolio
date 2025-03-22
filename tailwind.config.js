@@ -12,7 +12,7 @@ export default {
 				button: '#04594B',
 				buttonHover: '#044439',
 				text: '#ECEDEE',
-				textHover: '#D5D6D7',
+				textHover: '#A6ABAB',
 			},
 			fontFamily: {
 				sans: ['"Open Sans"', 'sans-serif'],
