@@ -1,16 +1,23 @@
+import { FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
+
 function Footer() {
-    const year = new Date().getFullYear();  
 
     return (
-        <div className="bg-gray-200 py-6">
-            <div className="px-6 flex flex-col items-center">
+        <div className="bg-secondary">
+            <div className="flex flex-col items-center p-4">
 
-                <span>Built with React by Andreas Lambropoulos, {year}</span>
+                <div>Built with React by Andreas Lambropoulos</div>
 
-                <ul className="flex space-x-6 mt-4">
-                    <li><a href="https://github.com/andlamb2002" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="https://www.linkedin.com/in/andreas-k-lambropoulos/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                    <li><a href="https://www.youtube.com/@andreaslambropoulos1159" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+                <ul className="flex text-4xl gap-x-6 mt-2">
+                    <li><a href="https://github.com/andlamb2002" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-textHover">
+                        <FaGithub />
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/andreas-k-lambropoulos/" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-textHover">
+                        <FaLinkedin />
+                    </a></li>
+                    <li><a href="https://www.youtube.com/@andrelambro" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-textHover">
+                        <FaYoutube />
+                    </a></li>
                 </ul>
             </div>
         </div>
