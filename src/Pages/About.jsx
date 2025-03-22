@@ -4,9 +4,9 @@ import { aboutSections } from "../data/data";
 function About() {
     
     return (
-        <div className="max-w-4xl mx-auto p-8 bg-gray-100">
-            <h2 className="text-3xl font-bold mb-6">About Me</h2>
-            <div className="space-y-6">
+        <div className="mx-auto py-8">
+            <h2 className="text-4xl font-bold underline">About Me</h2>
+            <div className="flex flex-col gap-y-8 mt-8">
                 {aboutSections.map((section, index) => (
                     <AboutSection key={index} img={section.img} text={section.text} />
                 ))}

@@ -1,4 +1,6 @@
 import headshot from "../assets/headshot.png";
+import tkd from "../assets/tkd.jpg";
+import cube from "../assets/cube.jpg";
 import { FaUserCircle, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 
 export const homeIntro = {
@@ -27,15 +29,15 @@ export const navLinks = [
 
 export const aboutSections = [
     {
-        img: null, 
+        img: headshot, 
         text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     },
     {
-        img: null,
+        img: tkd,
         text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
     },
     {
-        img: null,
+        img: cube,
         text: `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
     },
 ];
