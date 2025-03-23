@@ -1,6 +1,10 @@
 import headshot from "../assets/headshot.png";
 import tkd from "../assets/tkd.jpg";
 import cube from "../assets/cube.jpg";
+
+import photo from "../assets/photo.png";
+import eg from "../assets/eg.png";
+
 import { FaUserCircle, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 
 export const homeIntro = {
@@ -44,15 +48,19 @@ export const aboutSections = [
 
 export const portfolio = [
     {
-        title: "Project 1",
-        techStack: "Tech 1",
+        title: "Photo Share App",
+        techStack: "MongoDB, Express, React, Node, Material UI",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        imgSrc: "null",
+        img: photo,
+        demoLink: "https://demo1.com",
+        githubLink: "https://github.com/andlamb2002/p5-group11",
     },
     {
-        title: "Project 2",
-        techStack: "Tech 2",
+        title: "EG Trainer",
+        techStack: "React, LocalStorage, Tailwind",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        imgSrc: "null",
+        img: eg,
+        demoLink: "https://demo1.com",
+        githubLink: "https://andlamb2002.github.io/eg-trainer/",
     },
 ];

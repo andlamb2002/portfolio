@@ -4,9 +4,9 @@ import { portfolio } from "../data/data";
 function Portfolio() {
 
     return (
-        <section className="container mx-auto px-6 py-12 bg-gray-100">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Portfolio</h2>
-            <div className="grid gap-6">
+        <section className="mx-auto py-8">
+            <h2 className="text-4xl font-bold underline">Portfolio</h2>
+            <div className="flex flex-col gap-y-8 mt-8">
                 {portfolio.map((project, index) => (
                     <ProjectCard key={index} {...project} />
                 ))}
