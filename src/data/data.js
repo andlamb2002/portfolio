@@ -52,7 +52,7 @@ export const portfolio = [
         techStack: "MongoDB, Express, React, Node, Material UI",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         img: photo,
-        demoLink: "https://demo1.com",
+        demoLink: "https://drive.google.com/file/d/1g2qKqMux974YYkJSqXbhW8Oftaf5IzTy/view",
         githubLink: "https://github.com/andlamb2002/p5-group11",
     },
     {
@@ -60,7 +60,7 @@ export const portfolio = [
         techStack: "React, LocalStorage, Tailwind",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         img: eg,
-        demoLink: "https://demo1.com",
-        githubLink: "https://andlamb2002.github.io/eg-trainer/",
+        demoLink: "https://andlamb2002.github.io/eg-trainer/",
+        githubLink: "https://github.com/andlamb2002/eg-trainer",
     },
 ];
