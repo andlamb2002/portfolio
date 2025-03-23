@@ -2,10 +2,10 @@ import PropTypes from "prop-types";
 
 const AboutSection = ({ img, text }) => {
     return (
-        <div className="flex items-start">
+        <div className="flex flex-col md:flex-row items-start">
             <img src={img} alt="about" className="w-48 h-64 flex-shrink-0 object-cover rounded-md" />
             <div>
-                <p className="ml-4 text-lg">{text}</p>
+                <p className="mt-4 md:mt-0 md:ml-4 text-lg">{text}</p>
             </div>
         </div>
     );
