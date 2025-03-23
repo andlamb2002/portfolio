@@ -4,6 +4,7 @@ import cube from "../assets/cube.jpg";
 
 import photo from "../assets/photo.png";
 import eg from "../assets/eg.png";
+import budget from "../assets/budget.png";
 import quiz from "../assets/quiz.png";
 import weather from "../assets/weather.png";
 import poke from "../assets/poke.png";
@@ -65,6 +66,13 @@ export const portfolio = [
         img: eg,
         demoLink: "https://andlamb2002.github.io/eg-trainer/",
         githubLink: "https://github.com/andlamb2002/eg-trainer",
+    },
+    {
+        title: "Budget App",
+        techStack: "MongoDB, Express, React, Node, Firebase, Bootstrap",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        img: budget,
+        githubLink: "https://github.com/andlamb2002/budget-app",
     },
     {
         title: "Quiz App",
