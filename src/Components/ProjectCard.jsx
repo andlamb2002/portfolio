@@ -6,10 +6,10 @@ function ProjectCard({ title, techStack, description, img, demoLink, githubLink 
             <img
                 src={img}
                 alt={title}
-                className="w-1/2 h-auto object-cover rounded-md"
+                className="w-2/3 object-cover rounded-md"
             />
 
-            <div className="w-1/2 ml-4 flex flex-col">
+            <div className="w-1/3 ml-4 flex flex-col">
                 <div>
                 <h3 className="text-2xl font-bold mb-2">{title}</h3>
                 <p className="text-sm italic mb-4">{techStack}</p>
