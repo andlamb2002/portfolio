@@ -4,6 +4,9 @@ import cube from "../assets/cube.jpg";
 
 import photo from "../assets/photo.png";
 import eg from "../assets/eg.png";
+import quiz from "../assets/quiz.png";
+import weather from "../assets/weather.png";
+import poke from "../assets/poke.png";
 
 import { FaUserCircle, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 
@@ -62,5 +65,26 @@ export const portfolio = [
         img: eg,
         demoLink: "https://andlamb2002.github.io/eg-trainer/",
         githubLink: "https://github.com/andlamb2002/eg-trainer",
+    },
+    {
+        title: "Quiz App",
+        techStack: "MongoDB, Express, React, Node, OpenAI API, Tailwind",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        img: quiz,
+        githubLink: "https://github.com/andlamb2002/quiz-app",
+    },
+    {
+        title: "Weather App",
+        techStack: "React, Node, OpenWeatherMap API, Google Places API, Tailwind",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        img: weather,
+        githubLink: "https://github.com/andlamb2002/weather-app",
+    },
+    {
+        title: "Pokemon App",
+        techStack: "React, PokeAPI, Tailwind",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        img: poke,
+        githubLink: "https://github.com/andlamb2002/pokemon-app",
     },
 ];
