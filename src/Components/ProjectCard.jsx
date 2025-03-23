@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function ProjectCard({ title, techStack, description, img, demoLink, githubLink }) {
     return (
-        <div className="flex w-full">
+        <div className="flex flex-col md:flex-row w-full">
             <img
                 src={img}
                 alt={title}
