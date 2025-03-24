@@ -2,14 +2,18 @@ import PropTypes from "prop-types";
 
 function ProjectCard({ title, techStack, description, img, demoLink, githubLink }) {
     return (
-        <div className="flex flex-col md:flex-row w-full">
-            <img
-                src={img}
-                alt={title}
-                className="w-2/3 object-cover rounded-md"
-            />
+        <div className="flex flex-col lg:flex-row w-full">
+            <div className="w-full lg:w-[66%] max-w-[900px]">
+                <div className="relative aspect-[16/9] rounded-md overflow-hidden">
+                    <img
+                        src={img}
+                        alt={title}
+                        className="absolute top-0 left-0 w-full h-full object-cover"
+                    />
+                </div>
+            </div>
 
-            <div className="w-1/3 ml-4 flex flex-col">
+            <div className="flex-[1] flex flex-col mt-4 lg:mt-0 lg:ml-4">
                 <div>
                 <h3 className="text-2xl font-bold mb-2">{title}</h3>
                 <p className="text-sm italic mb-4">{techStack}</p>
