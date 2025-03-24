@@ -9,7 +9,26 @@ import quiz from "../assets/quiz.png";
 import weather from "../assets/weather.png";
 import poke from "../assets/poke.png";
 
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaUserCircle, FaFolderOpen, FaEnvelope } from "react-icons/fa";
+
+export const socialLinks = [
+    {
+      icon: FaGithub,
+      url: "https://github.com/andlamb2002",
+      label: "GitHub",
+    },
+    {
+      icon: FaLinkedin,
+      url: "https://www.linkedin.com/in/andreas-k-lambropoulos/",
+      label: "LinkedIn",
+    },
+    {
+      icon: FaYoutube,
+      url: "https://www.youtube.com/@andrelambro",
+      label: "YouTube",
+    },
+  ];
 
 export const homeIntro = {
     greeting: "Welcome to My Personal Website!",
