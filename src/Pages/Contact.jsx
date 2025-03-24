@@ -1,17 +1,19 @@
 function Contact() {
-
     return (
-        <div className="flex justify-center min-h-screen bg-gray-300">
-            <div className="text-center">
-                <h1 className="text-3xl font-bold mb-4">Contact</h1>
-                <p className="text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-            </div>
+        <section className="mx-auto py-8">
+        <h2 className="text-4xl font-bold underline text-left">Contact</h2>
+        <div className="mt-8 text-lg">
+            Contact page is still being developed. You can send me an email at{" "}
+            <a
+                href="mailto:andlamb2002@gmail.com"
+                className="hover:text-textHover underline"
+            >
+                andlamb2002@gmail.com
+            </a>.
         </div>
-    )
-}
-
-export default Contact
+        </section>
+    );
+    }
+  
+  export default Contact;
+  
