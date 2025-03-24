@@ -14,7 +14,7 @@ function App() {
             <div className="flex flex-col min-h-screen bg-primary">
                 <Header /> 
                 <main className="flex-grow">
-                    <div className="w-3/5 mx-auto">
+                    <div className="w-4/5 lg:w-3/5 mx-auto">
                         <Routes>
                             <Route path="/" element={<Home />}/>
                             <Route path="/about" element={<About />}/>
