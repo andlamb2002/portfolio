@@ -2,7 +2,7 @@ import { socialLinks } from "../data/data";
 
 function Footer() {
     return (
-        <div className="bg-secondary">
+        <footer className="bg-secondary">
             <div className="flex flex-col items-center p-4">
                 <div>Built with React by Andreas Lambropoulos</div>
                 <ul className="flex text-4xl gap-x-8 mt-2">
@@ -24,7 +24,7 @@ function Footer() {
                 })}
                 </ul>
             </div>
-        </div>
+        </footer>
     );
 }
 

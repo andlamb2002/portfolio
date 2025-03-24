@@ -13,7 +13,7 @@ function ProjectCard({ title, techStack, description, img, demoLink, githubLink 
                 </div>
             </div>
 
-            <div className="flex-[1] flex flex-col mt-4 lg:mt-0 lg:ml-4">
+            <article className="flex-[1] flex flex-col mt-4 lg:mt-0 lg:ml-4">
                 <div>
                 <h3 className="text-2xl font-bold mb-2">{title}</h3>
                 <p className="text-sm italic mb-4">{techStack}</p>
@@ -26,6 +26,7 @@ function ProjectCard({ title, techStack, description, img, demoLink, githubLink 
                             href={demoLink}
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label={`Demo of ${title}`}
                             className="bg-button hover:bg-buttonHover text-lg font-bold py-2 px-4 rounded"
                         >
                             Demo
@@ -36,6 +37,7 @@ function ProjectCard({ title, techStack, description, img, demoLink, githubLink 
                             href={githubLink}
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label={`Source code of ${title}`}
                             className="bg-button hover:bg-buttonHover text-lg font-bold py-2 px-4 rounded"
                         >
                             GitHub
@@ -43,7 +45,7 @@ function ProjectCard({ title, techStack, description, img, demoLink, githubLink 
                         )}
                     </div>
                 )}
-            </div>
+            </article>
         </div>
     );
 }

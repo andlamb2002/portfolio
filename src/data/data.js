@@ -63,14 +63,17 @@ export const navLinks = [
 export const aboutSections = [
     {
         img: headshot, 
+        alt: "Headshot",
         text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     },
     {
         img: tkd,
+        alt: "Taekwondo",
         text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
     },
     {
         img: cube,
+        alt: "Rubik's Cube",
         text: `Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
     },
 ];

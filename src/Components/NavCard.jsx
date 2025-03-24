@@ -7,7 +7,7 @@ function NavCard({ title, link, icon: Icon }) {
             className="w-40 h-40 bg-button rounded-lg flex flex-col items-center justify-center hover:bg-buttonHover"
         >
             <div className="flex items-center justify-center text-8xl">
-                <Icon />
+                <Icon aria-hidden="true"/>
             </div>
             <p className="text-xl font-semibold mt-2">{title}</p>
         </a>
