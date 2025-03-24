@@ -5,7 +5,7 @@ function Footer() {
         <div className="bg-secondary">
             <div className="flex flex-col items-center p-4">
                 <div>Built with React by Andreas Lambropoulos</div>
-                <ul className="flex text-4xl gap-x-6 mt-2">
+                <ul className="flex text-4xl gap-x-8 mt-2">
                 {socialLinks.map((link, index) => {
                     const Icon = link.icon;
                     return (
