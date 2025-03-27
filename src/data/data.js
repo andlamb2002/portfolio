@@ -12,6 +12,11 @@ import poke from "../assets/poke.png";
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaUserCircle, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 
+export const siteInfo = {
+    name: "Andreas Lambropoulos",
+    resumeUrl: "https://drive.google.com/file/d/1u_JTdNohnX34XSf-Km9_u-dn3NeH6lqv/view?usp=sharing",
+  };
+
 export const socialLinks = [
     {
       icon: FaGithub,
