@@ -43,6 +43,7 @@ export const homeIntro = {
             I have been working part-time as a Taekwondo instructor for over 6 years where I have developed strong leadership and teamwork skills. 
         `,
     img: headshot, 
+    alt: "Headshot of Andreas Lambropoulos",
   };
 
 export const navLinks = [

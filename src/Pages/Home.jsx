@@ -9,7 +9,7 @@ function Home() {
             <section className="flex flex-col lg:flex-row items-center w-full">
 
                 <div className="w-48 h-48 flex-shrink-0 rounded-full flex items-center justify-center overflow-hidden">
-                    <img src={homeIntro.img} alt="Headshot of Andreas Lambropoulos" className="w-full h-full object-cover"/>
+                    <img src={homeIntro.img} alt={homeIntro.alt} className="w-full h-full object-cover"/>
                 </div>
 
                 <article className="lg:ml-8">
