@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import siteInfo from '../data/data';
+import { siteInfo } from '../data/data';
 
 function Header() {
     return (
