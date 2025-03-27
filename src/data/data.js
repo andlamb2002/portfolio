@@ -117,7 +117,7 @@ export const portfolio = [
     },
     {
         title: "Budget App",
-        techStack: "MongoDB, Express, React, Node, Firebase, Bootstrap",
+        techStack: "MongoDB, Express, React, Node, Firebase, Chart.js, Bootstrap",
         description: `
             Full-stack budget tracking application with secure authentication and real-time data management. 
             Includes budget and expense management features complemented with data visualizations.
