@@ -113,7 +113,7 @@ export const portfolio = [
     },
     {
         title: "EG Trainer",
-        techStack: "React, LocalStorage, Tailwind",
+        techStack: "React, LocalStorage, VisualCube API, Tailwind",
         description: `
             2x2x2 Rubik’s Cube training app for the EG method with interactive timer, performance tracking, and personalized training presets.
         `,
