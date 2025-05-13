@@ -1,4 +1,5 @@
 import headshot from "../assets/headshot.png";
+import grad from "../assets/grad.jpg";
 import tkd from "../assets/tkd.jpg";
 import cube from "../assets/cube.jpg";
 
@@ -66,8 +67,8 @@ export const navLinks = [
 
 export const aboutSections = [
     {
-        img: headshot, 
-        alt: "Headshot",
+        img: grad, 
+        alt: "Graduation",
         text: `
             I recently earned my Master's degree in Computer Science from UNC Charlotte in May 2025, graduating with a 4.00 GPA.
             I also earned my bachelor's degree in May 2024 with a 3.96 GPA and was named to the Chancellor's List for five consecutive semesters from Fall 2021 to Fall 2023. 
