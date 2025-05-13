@@ -38,8 +38,8 @@ export const socialLinks = [
 export const homeIntro = {
     greeting: "Welcome to My Personal Website!",
     intro: `
-            My name is Andreas Lambropoulos and I am a graduate student in Computer Science with a passion for software engineering and a specialty in full-stack development. 
-            I am open to internships and full-time job opportunities in software engineering, full-stack development, and other CS-related fields. 
+            My name is Andreas Lambropoulos and I am a Master of Science in Computer Science graduate with a passion for software engineering and a specialty in web development. 
+            I am open to internships and full-time job opportunities in software engineering, web development, and other CS-related fields. 
             I have been working part-time as a Taekwondo instructor for over 6 years where I have developed strong leadership and teamwork skills. 
         `,
     img: headshot, 
@@ -69,8 +69,8 @@ export const aboutSections = [
         img: headshot, 
         alt: "Headshot",
         text: `
-            I am currently pursuing my master's degree in Computer Science in my fourth year at UNC Charlotte, expected to graduate in May 2025 with a current GPA of 4.00. 
-            I previously earned my bachelor's degree in May 2024 with a 3.96 GPA and was named to the Chancellor's List for five consecutive semesters from Fall 2021 to Fall 2023. 
+            I recently earned my Master's degree in Computer Science from UNC Charlotte in May 2025, graduating with a 4.00 GPA.
+            I also earned my bachelor's degree in May 2024 with a 3.96 GPA and was named to the Chancellor's List for five consecutive semesters from Fall 2021 to Fall 2023. 
             Through academic coursework and personal projects, I have gained hands-on experience building scalable web applications and working in Agile team environments. 
             I am open to internships and full-time job opportunities as I am ready to apply my technical skills to solve real-world problems in a team-oriented environment.
         `,
