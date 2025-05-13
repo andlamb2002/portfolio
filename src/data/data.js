@@ -14,7 +14,7 @@ import { FaUserCircle, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 
 export const siteInfo = {
     name: "Andreas Lambropoulos",
-    resumeUrl: "https://drive.google.com/file/d/1u_JTdNohnX34XSf-Km9_u-dn3NeH6lqv/view?usp=sharing",
+    resumeUrl: "https://drive.google.com/file/d/1DZgYVOcA3FBJTEnQZHOk-vfD24gebJgt/view?usp=sharing",
   };
 
 export const socialLinks = [
