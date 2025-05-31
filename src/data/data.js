@@ -92,7 +92,7 @@ export const aboutSections = [
         alt: "Rubik's Cube",
         text: `
                 I've been a competitive speedcuber since 2017, a sport where twisty puzzles are solved as fast as possible. 
-                My main event is solving the 3x3x3 Rubik's Cube one-handed where I am ranked top 100 globally with a 7.32-second single solve and 10.49-second average of 5 solves. 
+                My main event is solving the 3x3x3 Rubik's Cube one-handed where I am ranked top 100 globally with a 7.32-second single solve and 10.35-second average of 5 solves. 
                 I am the 3-time Southeast US Champion in this event, as well as a finalist at the 2024 North American Championship and 2023 US National Championship. 
                 I am also passionate about giving back to the community by volunteering at over 50 competitions and co-organizing 3 competitions at UNC Charlotte. 
                 My ultimate goal is to achieve an official sub-10 second one-handed average of 5 solves.        
