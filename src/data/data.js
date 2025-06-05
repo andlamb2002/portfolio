@@ -7,6 +7,7 @@ import photo from "../assets/photo.png";
 import budget from "../assets/budget.png";
 import nwp from "../assets/nwp.png";
 import api from "../assets/api.png";
+import imgalg from "../assets/imgalg.png";
 import eg from "../assets/eg.png";
 import quiz from "../assets/quiz.png";
 
@@ -114,7 +115,7 @@ export const portfolio = [
     },
     {
         title: "Budget App",
-        techStack: "MongoDB, Express, React, Node, Firebase, Chart.js, Bootstrap",
+        techStack: "Express, React, Node, Firebase, Chart.js, Bootstrap",
         description: `
             Full-stack budget tracking application with secure authentication and real-time data management. 
             Includes budget and expense management features complemented with data visualizations.
@@ -142,6 +143,16 @@ export const portfolio = [
         `,
         img: api,
         githubLink: "https://github.com/andlamb2002/ITIS-6177-API-Wrapper",
+    },
+    {
+        title: "Alg to Img",
+        techStack: "VisualCube API, TypeScript, React, Express, Node, JSZip, Pico CSS",
+        description: `
+            A web app that converts Rubik's Cube algorithms into visual cube images using the VisualCube API.
+        `,
+        img: imgalg,
+        demoLink: "https://algtoimg.andrelambro.com/",
+        githubLink: "https://github.com/andlamb2002/alg-to-img",
     },
     {
         title: "EG Trainer",
