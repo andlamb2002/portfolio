@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { siteInfo } from '../data/data';
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Header() {
     return (
@@ -18,7 +19,7 @@ function Header() {
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-1 hover:underline hover:text-textHover"
                             >
-                                Resume
+                                Resume <FaExternalLinkAlt className="inline-block text-sm" />
                             </a>
                         </li>
                     </ul>
