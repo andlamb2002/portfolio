@@ -40,9 +40,9 @@ export const socialLinks = [
 export const homeIntro = {
     greeting: "Welcome to My Personal Website!",
     intro: `
-            My name is Andreas Lambropoulos and I am a Master of Science in Computer Science graduate with a passion for software engineering and a specialty in web development. 
-            I am open to internships and full-time job opportunities in software engineering, web development, and other CS-related fields. 
-            I have been working part-time as a Taekwondo instructor for over 6 years where I have developed strong leadership and teamwork skills. 
+            My name is Andreas Lambropoulos and I am a Master of Science in Computer Science graduate with a passion for software engineering and a specialty in full-stack web development. 
+            I am currently seeking entry-level roles in software engineering, full-stack development, web development, and other CS-related fields. 
+            I have been working as a Taekwondo instructor for 7 years where I have developed strong skills in leadership, communication, and team management. 
         `,
     img: headshot, 
     alt: "Headshot of Andreas Lambropoulos",
@@ -73,8 +73,8 @@ export const aboutSections = [
         text: `
             I recently earned my Master's degree in Computer Science from UNC Charlotte in May 2025, graduating with a 4.00 GPA.
             I also earned my bachelor's degree in May 2024 with a 3.96 GPA and was named to the Chancellor's List for five consecutive semesters from Fall 2021 to Fall 2023. 
-            Through academic coursework and personal projects, I have gained hands-on experience building scalable web applications and working in Agile team environments. 
-            I am open to internships and full-time job opportunities as I am ready to apply my technical skills to solve real-world problems in a team-oriented environment.
+            Through academic coursework and personal projects, I have built responsive, scalable web applications using React.js and Express.js, while working in Agile team environments. 
+            I am open to internships and full-time job opportunities where I can contribute in a team towards building applications that aren’t just functional, but intuitive and maintainable.
         `,
     },
     {
@@ -93,8 +93,8 @@ export const aboutSections = [
         alt: "Rubik's Cube",
         text: `
                 I've been a competitive speedcuber since 2017, a sport where twisty puzzles are solved as fast as possible. 
-                My main event is solving the 3x3x3 Rubik's Cube one-handed where I am ranked top 100 globally with a 7.32-second single solve and 10.35-second average of 5 solves. 
-                I am the 3-time Southeast US Champion in this event, as well as a finalist at the 2024 North American Championship and 2023 US National Championship. 
+                My main event is solving the 3x3x3 Rubik's Cube one-handed where I am ranked top 100 globally with a 7.32-second single solve and 10.35-second average of 5 solves.
+                I am the 4-time Southeast US Champion in this event, as well as a finalist at the 2025 World Championship, 2024 North American Championship, and 2023 US National Championship. 
                 I am also passionate about giving back to the community by volunteering at over 50 competitions and co-organizing 3 competitions at UNC Charlotte. 
                 My ultimate goal is to achieve an official sub-10 second one-handed average of 5 solves.        
             `,
