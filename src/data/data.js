@@ -3,6 +3,7 @@ import grad from "../assets/grad.jpg";
 import tkd from "../assets/tkd.jpg";
 import cube from "../assets/cube.jpg";
 
+import trainer from "../assets/trainer.png";
 import photo from "../assets/photo.png";
 import budget from "../assets/budget.png";
 import nwp from "../assets/nwp.png";
@@ -102,6 +103,17 @@ export const aboutSections = [
 ];
 
 export const portfolio = [
+    {
+        title: "Rubik's Cube Algorithm Trainer",
+        techStack: "React, TypeScript, Tailwind, LocalStorage",
+        description: `
+            Speedcubing training platform with an integrated timer, performance tracking, algorithm case selection, and recap mode for structured practice.
+            Features responsive design, light/dark mode, and clear interaction feedback.
+        `,
+        img: trainer,
+        demoLink: "https://trainer.andrelambro.com/",
+        githubLink: "https://github.com/andlamb2002/lambro-trainer",
+    },
     {
         title: "Photo Share App",
         techStack: "MongoDB, Express, React, Node, Material UI",
