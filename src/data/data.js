@@ -1,4 +1,4 @@
-import headshot from "../assets/headshot.png";
+import headshot from "../assets/headshot.jpg";
 import grad from "../assets/grad.jpg";
 import tkd from "../assets/tkd.jpg";
 import cube from "../assets/cube.jpg";
