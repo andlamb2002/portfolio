@@ -17,7 +17,7 @@ import { FaUserCircle, FaFolderOpen, FaEnvelope } from "react-icons/fa";
 
 export const siteInfo = {
     name: "Andreas Lambropoulos",
-    resumeUrl: "https://drive.google.com/file/d/1DZgYVOcA3FBJTEnQZHOk-vfD24gebJgt/view?usp=sharing",
+    resumeUrl: "https://drive.google.com/file/d/1HwVugoLhbqufyERlo23jGFxXg_zWr6Ie/view?usp=sharing",
   };
 
 export const socialLinks = [
@@ -72,9 +72,9 @@ export const aboutSections = [
         img: grad, 
         alt: "Graduation",
         text: `
-            I recently earned my Master's degree in Computer Science from UNC Charlotte in May 2025, graduating with a 4.00 GPA.
+            I earned my Master's degree in Computer Science from UNC Charlotte in May 2025, graduating with a 4.00 GPA.
             I also earned my bachelor's degree in May 2024 with a 3.96 GPA and was named to the Chancellor's List for five consecutive semesters from Fall 2021 to Fall 2023. 
-            Through academic coursework and personal projects, I have built responsive, scalable web applications using React.js and Express.js, while working in Agile team environments. 
+            Through academic coursework and personal projects, I have built responsive, scalable web applications using React and Node/Express, while working in Agile team environments. 
             I am open to internships and full-time job opportunities where I can contribute in a team towards building applications that aren’t just functional, but intuitive and maintainable.
         `,
     },
@@ -94,7 +94,7 @@ export const aboutSections = [
         alt: "Rubik's Cube",
         text: `
                 I've been a competitive speedcuber since 2017, a sport where twisty puzzles are solved as fast as possible. 
-                My main event is solving the 3x3x3 Rubik's Cube one-handed where I am ranked top 40 in the world with a 7.32-second single solve and 9.45-second average of 5 solves.
+                My main event is solving the 3x3x3 Rubik's Cube one-handed where I am ranked top 50 in the world with a 7.32-second single solve and 9.45-second average of 5 solves.
                 I am the 4-time Southeast US Champion in this event, as well as a finalist at the 2025 World Championship, 2024 North American Championship, and 2023 US National Championship. 
                 I am also passionate about giving back to the community by volunteering at over 50 competitions and co-organizing 3 competitions at UNC Charlotte. 
             `,
