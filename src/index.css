@@ -7,6 +7,6 @@
         height: 100%;
     }
     body {
-        @apply bg-primary text-text m-0;
+        @apply bg-secondary text-text m-0;
     }
 }
