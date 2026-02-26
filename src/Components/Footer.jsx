@@ -4,7 +4,8 @@ function Footer() {
     return (
         <footer className="bg-secondary">
             <div className="flex flex-col items-center p-4">
-                <ul className="flex text-4xl gap-x-8">
+                <p className="font-semibold">Connect with me</p>
+                <ul className="flex text-4xl gap-x-6 mt-2">
                 {socialLinks.map((link, index) => {
                     const Icon = link.icon;
                     const isMail = link.url.startsWith("mailto:");
