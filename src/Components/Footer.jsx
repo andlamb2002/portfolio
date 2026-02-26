@@ -2,7 +2,7 @@ import { socialLinks } from "../data/data";
 
 function Footer() {
     return (
-        <footer className="bg-secondary">
+        <footer className="bg-secondary shadow-xl">
             <div className="flex flex-col items-center p-4">
                 <p className="font-semibold">Connect with me</p>
                 <ul className="flex text-4xl gap-x-6 mt-2">
