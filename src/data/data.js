@@ -41,8 +41,8 @@ export const socialLinks = [
 export const homeIntro = {
     greeting: "Welcome to My Personal Website!",
     intro: `
-            My name is Andreas Lambropoulos and I am a Master of Science in Computer Science graduate with a passion for software engineering and a specialty in full-stack web development. 
-            I am currently seeking entry-level roles in software engineering, full-stack development, web development, and other CS-related fields. 
+            My name is Andreas Lambropoulos and I am a Master of Science in Computer Science graduate with a passion for software engineering and a specialty in front-end development. 
+            I am currently seeking entry-level roles in software engineering, front-end development, full-stack development, and other CS-related fields. 
             I have been working as a Taekwondo instructor for 7 years where I have developed strong skills in leadership, communication, and team management. 
         `,
     img: headshot, 
