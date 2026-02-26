@@ -5,7 +5,7 @@ const AboutSection = ({ img, alt, text }) => {
         <div className="flex flex-col lg:flex-row items-start">
             <img src={img} alt={alt} className="lg:mt-2 w-48 h-64 flex-shrink-0 object-cover rounded-md"/>
             <article>
-                <p className="mt-4 lg:mt-0 lg:ml-4 text-lg">{text}</p>
+                <p className="mt-4 lg:mt-2 lg:ml-4 text-lg">{text}</p>
             </article>
         </div>
     );
