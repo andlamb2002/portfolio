@@ -13,7 +13,7 @@ import eg from "../assets/eg.png";
 import quiz from "../assets/quiz.png";
 
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { FaUserCircle, FaFolderOpen, FaEnvelope } from "react-icons/fa";
+import { FaUserCircle, FaFolderOpen } from "react-icons/fa";
 
 export const siteInfo = {
     name: "Andreas Lambropoulos",
@@ -59,11 +59,6 @@ export const navLinks = [
         title: "Portfolio",
         link: "/portfolio",
         icon: FaFolderOpen,
-    },
-    {
-        title: "Contact",
-        link: "/contact",
-        icon: FaEnvelope,
     },
 ];
 
