@@ -12,7 +12,7 @@ import imgalg from "../assets/imgalg.png";
 import eg from "../assets/eg.png";
 import quiz from "../assets/quiz.png";
 
-import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaUserCircle, FaFolderOpen } from "react-icons/fa";
 
 export const siteInfo = {
@@ -21,6 +21,11 @@ export const siteInfo = {
   };
 
 export const socialLinks = [
+    {
+        icon: FaEnvelope,
+        url: "mailto:andlamb2002@gmail.com",
+        label: "Email",
+    },
     {
       icon: FaGithub,
       url: "https://github.com/andlamb2002",
