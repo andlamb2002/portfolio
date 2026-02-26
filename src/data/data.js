@@ -13,7 +13,7 @@ import eg from "../assets/eg.png";
 import quiz from "../assets/quiz.png";
 
 import { FaEnvelope, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
-import { FaUserCircle, FaFolderOpen } from "react-icons/fa";
+import { FaUserCircle, FaFolderOpen, FaFileAlt } from "react-icons/fa";
 
 export const siteInfo = {
     name: "Andreas Lambropoulos",
@@ -27,19 +27,19 @@ export const socialLinks = [
         label: "Email",
     },
     {
-      icon: FaGithub,
-      url: "https://github.com/andlamb2002",
-      label: "GitHub",
+        icon: FaGithub,
+        url: "https://github.com/andlamb2002",
+        label: "GitHub",
     },
     {
-      icon: FaLinkedin,
-      url: "https://www.linkedin.com/in/andreas-k-lambropoulos/",
-      label: "LinkedIn",
+        icon: FaLinkedin,
+        url: "https://www.linkedin.com/in/andreas-k-lambropoulos/",
+        label: "LinkedIn",
     },
     {
-      icon: FaYoutube,
-      url: "https://www.youtube.com/@andrelambro",
-      label: "YouTube",
+        icon: FaYoutube,
+        url: "https://www.youtube.com/@andrelambro",
+        label: "YouTube",
     },
   ];
 
@@ -59,11 +59,19 @@ export const navLinks = [
         title: "About",
         link: "/about",
         icon: FaUserCircle,
+        external: false,
     },
     {
         title: "Portfolio",
         link: "/portfolio",
         icon: FaFolderOpen,
+        external: false,
+    },
+    { 
+        title: "Resume", 
+        link: siteInfo.resumeUrl, 
+        icon: FaFileAlt, 
+        external: true 
     },
 ];
 

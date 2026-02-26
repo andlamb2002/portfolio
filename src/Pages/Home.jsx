@@ -22,7 +22,7 @@ function Home() {
 
             <nav className="flex flex-col sm:flex-row gap-y-8 sm:gap-y-0 sm:gap-x-8">
                 {navLinks.map((nav, index) => (
-                    <NavCard key={index} title={nav.title} link={nav.link} icon={nav.icon}/>
+                    <NavCard key={index} title={nav.title} link={nav.link} icon={nav.icon} external={nav.external} />
                 ))}
             </nav>
         </div>
