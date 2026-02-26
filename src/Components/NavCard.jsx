@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 
 function NavCard({ title, link, icon: Icon, external = false }) {
 
-    const className =
-        "w-40 h-40 bg-button rounded-lg flex flex-col items-center justify-center " +
-        "hover:bg-buttonHover transition-colors";
+    const className = "w-40 h-40 bg-button rounded-lg flex flex-col items-center justify-center shadow-md hover:bg-buttonHover transition-colors";
 
     const content = (
         <>

@@ -8,7 +8,7 @@ function Home() {
 
             <section className="flex flex-col lg:flex-row items-center w-full">
 
-                <div className="w-48 h-48 flex-shrink-0 rounded-full flex items-center justify-center overflow-hidden">
+                <div className="w-48 h-48 flex-shrink-0 rounded-full flex items-center justify-center overflow-hidden shadow-lg">
                     <img src={homeIntro.img} alt={homeIntro.alt} className="w-full h-full object-cover"/>
                 </div>
 

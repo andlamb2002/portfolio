@@ -4,7 +4,7 @@ function ProjectCard({ title, techStack, description, img, demoLink, githubLink 
     return (
         <div className="flex flex-col lg:flex-row w-full">
             <div className="w-full lg:w-[66%] max-w-[900px]">
-                <div className="relative aspect-[16/9] rounded-md overflow-hidden">
+                <div className="relative aspect-[16/9] rounded-md overflow-hidden shadow-md">
                     <img
                         src={img}
                         alt={title}
