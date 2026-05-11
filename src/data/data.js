@@ -46,9 +46,8 @@ export const socialLinks = [
 export const homeIntro = {
     greeting: "Welcome to My Personal Website!",
     intro: `
-            My name is Andreas Lambropoulos and I'm a Master of Science in Computer Science graduate with a passion for software engineering and a specialty in front-end development. 
-            I'm currently seeking entry-level roles in software engineering, front-end development, full-stack development, and other CS-related fields. 
-            I've been working as a Taekwondo instructor for 7 years where I've developed strong skills in leadership and collaboration. 
+            My name is Andreas Lambropoulos and I'm a Master of Science in Computer Science graduate and an incoming Associate Software Engineer for DebtBook.
+            I've previously worked as a Taekwondo instructor for 7 years where I've developed strong skills in leadership and collaboration. 
         `,
     img: headshot, 
     alt: "Headshot of Andreas Lambropoulos",
@@ -83,7 +82,6 @@ export const aboutSections = [
             I earned my Master's degree in Computer Science from UNC Charlotte in May 2025, graduating with a 4.00 GPA.
             I also earned my bachelor's degree in May 2024 with a 3.96 GPA and was named to the Chancellor's List for five consecutive semesters from Fall 2021 to Fall 2023. 
             Through academic coursework and personal projects, I've built responsive, scalable full-stack applications using React and Node/Express, while working in Agile team environments. 
-            I'm open to internships and full-time job opportunities where I can contribute to real-world software solutions on a collaborative team and continue growing my skills alongside experienced engineers
         `,
     },
     {
@@ -111,14 +109,24 @@ export const aboutSections = [
 
 export const portfolio = [
     {
-        title: "Rubik's Cube Algorithm Trainer",
-        techStack: "React, TypeScript, Tailwind, LocalStorage",
+        title: "Rubik's Cube Algorithm Trainer V2",
+        techStack: "React, TypeScript, Tailwind, Zustand, Python, localStorage",
+        description: `
+            Rebuilt with a modernized architecture using Zustand state management and custom hooks. 
+            Retains all v1 features while adding persistent session state, a structured localStorage schema, and a cleaner codebase built for future extensibility.`,
+        img: trainer,
+        demoLink: "https://trainer.andrelambro.com/",
+        githubLink: "https://github.com/andlamb2002/lambro-trainer-v2",
+    },
+    {
+        title: "Rubik's Cube Algorithm Trainer V1",
+        techStack: "React, TypeScript, Tailwind, localStorage",
         description: `
             Speedcubing training platform with an integrated timer, performance tracking, algorithm case selection, and recap mode for structured practice.
             Features responsive design, light/dark mode, and clear interaction feedback.
         `,
         img: trainer,
-        demoLink: "https://trainer.andrelambro.com/",
+        demoLink: "https://trainer.andrelambro.com/v1",
         githubLink: "https://github.com/andlamb2002/lambro-trainer",
     },
     {
