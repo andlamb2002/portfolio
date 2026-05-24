@@ -47,7 +47,7 @@ export const socialLinks = [
 export const homeIntro = {
     greeting: "Welcome to My Personal Website!",
     intro: `
-            My name is Andreas Lambropoulos and I'm a Master of Science in Computer Science graduate and an incoming Associate Software Engineer for DebtBook.
+            My name is Andreas Lambropoulos and I'm an Associate Software Engineer for DebtBook and Master of Science in Computer Science graduate from UNC Charlotte.
             I've previously worked as a Taekwondo instructor for 7 years where I've developed strong skills in leadership and collaboration. 
         `,
     img: headshot, 
