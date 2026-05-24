@@ -3,6 +3,7 @@ import grad from "../assets/grad.jpg";
 import tkd from "../assets/tkd.jpg";
 import cube from "../assets/cube.jpg";
 
+import trainerv2 from "../assets/trainerv2.jpeg";
 import trainer from "../assets/trainer.png";
 import photo from "../assets/photo.png";
 import budget from "../assets/budget.png";
@@ -113,8 +114,8 @@ export const portfolio = [
         techStack: "React, TypeScript, Tailwind, Zustand, Python, localStorage",
         description: `
             Rebuilt with a modernized architecture using Zustand state management and custom hooks. 
-            Retains all v1 features while adding persistent session state, a structured localStorage schema, and a cleaner codebase built for future extensibility.`,
-        img: trainer,
+            Retains all v1 features while adding persistent session state, a structured localStorage schema, and a cleaner codebase.`,
+        img: trainerv2,
         demoLink: "https://trainer.andrelambro.com/",
         githubLink: "https://github.com/andlamb2002/lambro-trainer-v2",
     },
